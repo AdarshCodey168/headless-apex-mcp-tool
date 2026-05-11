@@ -170,8 +170,13 @@ console.log(" Connect Claude to your MCP Server");
 console.log("--------------------------------------------\n");
 console.log("1. Open https://claude.ai → Customize → Connectors → + → Add custom connector\n");
 console.log("2. Name: Pipeline Intelligence\n");
-console.log("3. Server URL:");
-console.log("   https://api.salesforce.com/platform/mcp/v1/sandbox/Pipeline_Intelligence\n");
+const mcpDefDir = join(PROJECT_DIR, "force-app/main/default/mcpServerDefinitions");
+const mcpServerName = readdirSync(mcpDefDir)
+  .find(f => f.endsWith(".mcpServerDefinition-meta.xml"))
+  ?.replace(".mcpServerDefinition-meta.xml", "");
+
+console.log("3. Server URL — copy from Salesforce Setup:");
+console.log(`   Setup → Integrations → MCP Servers → ${mcpServerName} → Authentication Details → Server URL\n`);
 console.log("4. Advanced Settings → OAuth Client ID: paste the Consumer Key\n");
 console.log("5. Click Add → Connect → Log in with your scratch org credentials\n");
 console.log("--------------------------------------------");

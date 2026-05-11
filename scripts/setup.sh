@@ -106,8 +106,10 @@ echo "1. Open https://claude.ai → Customize → Connectors → + → Add custo
 echo ""
 echo "2. Name: Pipeline Intelligence"
 echo ""
-echo "3. Server URL:"
-echo "   https://api.salesforce.com/platform/mcp/v1/sandbox/Pipeline_Intelligence"
+MCP_SERVER_NAME=$(basename "$PROJECT_DIR"/force-app/main/default/mcpServerDefinitions/*.mcpServerDefinition-meta.xml .mcpServerDefinition-meta.xml)
+
+echo "3. Server URL — copy from Salesforce Setup:"
+echo "   Setup → Integrations → MCP Servers → ${MCP_SERVER_NAME} → Authentication Details → Server URL"
 echo ""
 echo "4. Advanced Settings → OAuth Client ID: paste the Consumer Key"
 echo ""

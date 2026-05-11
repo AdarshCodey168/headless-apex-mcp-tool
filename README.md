@@ -99,10 +99,14 @@ In **Claude.ai** (web):
 2. Click **Connectors** → the **+** button
 3. Select **Add custom connector**
 4. Enter a name (e.g., "Pipeline Intelligence")
-5. Enter the **Server URL**:
-   ```
-   https://api.salesforce.com/platform/mcp/v1/sandbox/Pipeline_Intelligence
-   ```
+5. Copy the **Server URL** from Salesforce Setup:
+   - Go to **Setup → Integrations → MCP Servers**
+   - Click your MCP Server name ("Pipeline Intelligence")
+   - Under **Authentication Details**, copy the **Server URL**
+   
+   > **Note:** Sandbox/scratch orgs use `https://api.salesforce.com/platform/mcp/v1/sandbox/custom/<NAME>`. Production/Developer Edition orgs use `https://api.salesforce.com/platform/mcp/v1/custom/<NAME>`.
+
+6. Paste the Server URL into the connector configuration
 6. In **Advanced settings**, paste your **OAuth Consumer Key** into the "OAuth Client ID" field
 7. Click **Add**, then click **Connect**
 8. Log in with your scratch org credentials when redirected

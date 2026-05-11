@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "PricebookEntry", "referenceId": "PbeEnterpriseLicense" },
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__",
+      "Product2Id": "@ProductEnterpriseLicense",
+      "UnitPrice": 15000.00,
+      "IsActive": true
+    },
+    {
+      "attributes": { "type": "PricebookEntry", "referenceId": "PbePremiumSupport" },
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__",
+      "Product2Id": "@ProductPremiumSupport",
+      "UnitPrice": 5000.00,
+      "IsActive": true
+    },
+    {
+      "attributes": { "type": "PricebookEntry", "referenceId": "PbeDataStorage" },
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__",
+      "Product2Id": "@ProductDataStorage",
+      "UnitPrice": 2500.00,
+      "IsActive": true
+    },
+    {
+      "attributes": { "type": "PricebookEntry", "referenceId": "PbeImplementation" },
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__",
+      "Product2Id": "@ProductImplementation",
+      "UnitPrice": 25000.00,
+      "IsActive": true
+    }
+  ]
+}

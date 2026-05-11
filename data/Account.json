@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Account", "referenceId": "AccountAcme" },
+      "Name": "Acme Corporation",
+      "Industry": "Technology",
+      "AnnualRevenue": 50000000,
+      "NumberOfEmployees": 2500,
+      "BillingCity": "San Francisco",
+      "BillingState": "CA",
+      "Phone": "415-555-1234"
+    },
+    {
+      "attributes": { "type": "Account", "referenceId": "AccountGlobox" },
+      "Name": "Globox Industries",
+      "Industry": "Manufacturing",
+      "AnnualRevenue": 120000000,
+      "NumberOfEmployees": 8000,
+      "BillingCity": "Chicago",
+      "BillingState": "IL",
+      "Phone": "312-555-5678"
+    }
+  ]
+}

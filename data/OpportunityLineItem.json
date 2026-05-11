@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliAcmeRenewalLicense" },
+      "OpportunityId": "@OppAcmeRenewal",
+      "PricebookEntryId": "@PbeEnterpriseLicense",
+      "Quantity": 10,
+      "UnitPrice": 15000.00
+    },
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliAcmeRenewalSupport" },
+      "OpportunityId": "@OppAcmeRenewal",
+      "PricebookEntryId": "@PbePremiumSupport",
+      "Quantity": 1,
+      "UnitPrice": 5000.00
+    },
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliAcmeRenewalStorage" },
+      "OpportunityId": "@OppAcmeRenewal",
+      "PricebookEntryId": "@PbeDataStorage",
+      "Quantity": 20,
+      "UnitPrice": 2500.00
+    },
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliAcmeExpansionLicense" },
+      "OpportunityId": "@OppAcmeExpansion",
+      "PricebookEntryId": "@PbeEnterpriseLicense",
+      "Quantity": 5,
+      "UnitPrice": 15000.00
+    },
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliAcmeExpansionStorage" },
+      "OpportunityId": "@OppAcmeExpansion",
+      "PricebookEntryId": "@PbeDataStorage",
+      "Quantity": 4,
+      "UnitPrice": 2500.00
+    },
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliAcmeSupportPkg" },
+      "OpportunityId": "@OppAcmeSupport",
+      "PricebookEntryId": "@PbePremiumSupport",
+      "Quantity": 6,
+      "UnitPrice": 5000.00
+    },
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliGloboxLicense" },
+      "OpportunityId": "@OppGloboxNew",
+      "PricebookEntryId": "@PbeEnterpriseLicense",
+      "Quantity": 25,
+      "UnitPrice": 15000.00
+    },
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliGloboxStorage" },
+      "OpportunityId": "@OppGloboxNew",
+      "PricebookEntryId": "@PbeDataStorage",
+      "Quantity": 50,
+      "UnitPrice": 2500.00
+    },
+    {
+      "attributes": { "type": "OpportunityLineItem", "referenceId": "OliGloboxImpl" },
+      "OpportunityId": "@OppGloboxServices",
+      "PricebookEntryId": "@PbeImplementation",
+      "Quantity": 3,
+      "UnitPrice": 25000.00
+    }
+  ]
+}

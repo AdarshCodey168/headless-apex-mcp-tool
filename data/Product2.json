@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Product2", "referenceId": "ProductEnterpriseLicense" },
+      "Name": "Enterprise License",
+      "ProductCode": "ENT-001",
+      "Description": "Enterprise platform license - annual subscription",
+      "IsActive": true,
+      "Family": "License"
+    },
+    {
+      "attributes": { "type": "Product2", "referenceId": "ProductPremiumSupport" },
+      "Name": "Premium Support",
+      "ProductCode": "SUP-001",
+      "Description": "24/7 premium support package",
+      "IsActive": true,
+      "Family": "Support"
+    },
+    {
+      "attributes": { "type": "Product2", "referenceId": "ProductDataStorage" },
+      "Name": "Additional Data Storage",
+      "ProductCode": "STR-001",
+      "Description": "Additional 100GB data storage block",
+      "IsActive": true,
+      "Family": "Add-On"
+    },
+    {
+      "attributes": { "type": "Product2", "referenceId": "ProductImplementation" },
+      "Name": "Implementation Services",
+      "ProductCode": "SVC-001",
+      "Description": "Professional implementation and onboarding services",
+      "IsActive": true,
+      "Family": "Services"
+    }
+  ]
+}

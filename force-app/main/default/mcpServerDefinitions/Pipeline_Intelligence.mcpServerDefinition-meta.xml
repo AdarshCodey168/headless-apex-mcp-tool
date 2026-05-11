@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<McpServerDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Analyzes account pipeline health with deal risk scoring and weighted forecasts by traversing Salesforce&apos;s native business object graph.</description>
+    <masterLabel>Pipeline Intelligence</masterLabel>
+    <tools>
+        <apiDefinition>
+            <apiIdentifier>aa:apex-AccountPipelineService</apiIdentifier>
+            <apiSource>API_CATALOG</apiSource>
+            <operation>AccountPipelineService</operation>
+        </apiDefinition>
+        <descriptionOverride>Returns open opportunities with line items and computed business intelligence (risk levels, weighted pipeline, health summary) for a given account name. Supports fuzzy matching.</descriptionOverride>
+        <toolName>getAccountPipeline</toolName>
+        <toolTitle>Get Account Pipeline</toolTitle>
+    </tools>
+</McpServerDefinition>

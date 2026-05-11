@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Opportunity", "referenceId": "OppAcmeRenewal" },
+      "Name": "Acme Corp - Enterprise Renewal 2026",
+      "AccountId": "@AccountAcme",
+      "Amount": 200000,
+      "StageName": "Negotiation/Review",
+      "Probability": 75,
+      "CloseDate": "2026-06-30",
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__"
+    },
+    {
+      "attributes": { "type": "Opportunity", "referenceId": "OppAcmeExpansion" },
+      "Name": "Acme Corp - Platform Expansion",
+      "AccountId": "@AccountAcme",
+      "Amount": 85000,
+      "StageName": "Proposal/Price Quote",
+      "Probability": 50,
+      "CloseDate": "2026-08-15",
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__"
+    },
+    {
+      "attributes": { "type": "Opportunity", "referenceId": "OppAcmeSupport" },
+      "Name": "Acme Corp - Premium Support Add-On",
+      "AccountId": "@AccountAcme",
+      "Amount": 30000,
+      "StageName": "Qualification",
+      "Probability": 25,
+      "CloseDate": "2026-09-01",
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__"
+    },
+    {
+      "attributes": { "type": "Opportunity", "referenceId": "OppGloboxNew" },
+      "Name": "Globox - New Platform Deal",
+      "AccountId": "@AccountGlobox",
+      "Amount": 500000,
+      "StageName": "Value Proposition",
+      "Probability": 40,
+      "CloseDate": "2026-07-31",
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__"
+    },
+    {
+      "attributes": { "type": "Opportunity", "referenceId": "OppGloboxServices" },
+      "Name": "Globox - Implementation Services",
+      "AccountId": "@AccountGlobox",
+      "Amount": 75000,
+      "StageName": "Perception Analysis",
+      "Probability": 60,
+      "CloseDate": "2026-06-15",
+      "Pricebook2Id": "__STANDARD_PRICEBOOK_ID__"
+    }
+  ]
+}

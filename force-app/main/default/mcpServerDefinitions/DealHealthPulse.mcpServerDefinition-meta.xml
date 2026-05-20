@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<McpServerDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Scans open opportunities across the org and.</description>
+    <masterLabel>Deal Health Pulse</masterLabel>
+    <tools>
+        <apiDefinition>
+            <apiIdentifier>aa:apex-DealHealthPulse</apiIdentifier>
+            <apiSource>API_CATALOG</apiSource>
+            <operation>DealHealthPulse</operation>
+        </apiDefinition>
+        <descriptionOverride>Scans all open opportunities and returns deals showing risk signals: stage stagnation, no recent activity, overdue close dates, or missing next steps. Returns a summary and per-deal breakdown with risk labels (Critical / High / Medium).</descriptionOverride>
+        <toolName>getAtRiskDeals</toolName>
+        <toolTitle>Get At Risk Deals</toolTitle>
+    </tools>
+</McpServerDefinition>
